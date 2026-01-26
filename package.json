@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Noo001/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Noo001/frontend-project-44/actions)",
+  "homepage": "https://github.com/Noo001/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/Noo001/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noo001/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "bin/brain-games.js",
+  "scripts": {
+    "test": "node bin/brain-games.js"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
