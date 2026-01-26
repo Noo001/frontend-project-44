@@ -21,6 +21,8 @@
     "brain-games": "bin/brain-games.js"
   },
   "dependencies": {
+    "@stylistic/eslint-plugin": "^5.7.1",
+    "eslint": "^9.39.2",
     "readline-sync": "^1.4.10"
   }
 }
