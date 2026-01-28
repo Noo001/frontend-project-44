@@ -14,7 +14,7 @@ export function app(questions, correctAnswers) {
     const answer = readlineSync.question('Your answer: ')
     if (answer === correctAnswers[i]) {
       console.log('Correct!')
-      if(i === MAX_ATTEMPTS - 1) {
+      if (i === MAX_ATTEMPTS - 1) {
         console.log(`Congratulations, ${name}!`)
       }
     }
