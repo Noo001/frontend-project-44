@@ -6,7 +6,7 @@ export function prime() {
   const isPrime = (num) => {
     if (num < 3) return 'yes'
     if (num % 2 === 0) return 'no'
-    for (let i = 3; i < Math.sqrt(num); i++) {
+    for (let i = 3; i <= Math.sqrt(num); i++) {
       if (num % i === 0) return 'no'
     }
     return 'yes'
